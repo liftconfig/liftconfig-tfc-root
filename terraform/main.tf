@@ -1,6 +1,6 @@
 module "website" {
   source  = "app.terraform.io/liftconfig/s3-website/aws"
-  version = "1.0.7"
+  version = "1.0.0"
 
   cloudfront_default_ttl    = var.cloudfront_default_ttl
   cloudfront_error_page     = var.cloudfront_error_page
